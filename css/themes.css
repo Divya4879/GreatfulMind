@@ -1,0 +1,222 @@
+/* Theme styles for GratefulMind - Light Mode Only */
+
+:root {
+    /* Background colors */
+    --color-bg-primary: #f0f9f1;
+    --color-bg-secondary: #dcf5e0;
+    --color-bg-tertiary: #bbebca;
+    --color-bg-card: #ffffff;
+    --color-bg-card-alt: #f0f9f1;
+    
+    /* Text colors */
+    --color-text-primary: #215538;
+    --color-text-secondary: #3ba164;
+    --color-text-muted: #2c6a4a; /* Changed to dark green instead of gray */
+    
+    /* Accent colors */
+    --color-accent: #2c8550;
+    --color-accent-light: #5fc585;
+    --color-accent-dark: #256b42;
+    
+    /* Border colors */
+    --color-border: #8fdba9;
+    --color-border-light: #dcf5e0;
+    
+    /* Shadow */
+    --color-shadow: rgba(11, 39, 25, 0.1);
+}
+
+/* Apply theme colors to elements */
+body {
+    background-color: var(--color-bg-primary);
+    color: var(--color-text-primary);
+}
+
+/* Header and footer */
+header, footer {
+    background: linear-gradient(to right bottom, var(--color-bg-secondary), var(--color-bg-tertiary));
+    color: var(--color-text-primary);
+}
+
+/* Cards and sections */
+.bg-gradient-subtle {
+    background: linear-gradient(to right bottom, var(--color-bg-secondary), var(--color-bg-tertiary));
+    color: var(--color-text-primary);
+}
+
+.bg-white {
+    background-color: var(--color-bg-card) !important;
+    color: var(--color-text-primary);
+}
+
+/* Fix for task completion chart in light mode */
+.bg-white canvas {
+    background-color: white !important;
+}
+
+/* Identity buttons */
+.identity-btn {
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.identity-btn:hover {
+    background-color: var(--color-bg-tertiary);
+}
+
+.identity-btn.selected {
+    background-color: var(--color-accent);
+    color: white !important;
+}
+
+/* Identity pills */
+.identity-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+}
+
+.identity-pill-remove {
+    margin-left: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    color: var(--color-text-secondary);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0 0.25rem;
+    border-radius: 9999px;
+}
+
+/* Life area cards */
+.life-area-card {
+    border-top: 3px solid transparent;
+    transition: all 0.2s ease;
+    background: var(--color-bg-card);
+}
+
+.life-area-card.work {
+    border-top-color: #2c8550; /* Primary green */
+}
+
+.life-area-card.social {
+    border-top-color: #0fa968; /* Mint green */
+}
+
+.life-area-card.health {
+    border-top-color: #61744d; /* Sage green */
+}
+
+.life-area-card.finance {
+    border-top-color: #b4a30a; /* Gold */
+}
+
+/* Buttons */
+.bg-green-600 {
+    background-color: var(--color-accent) !important;
+}
+
+.hover\:bg-green-700:hover {
+    background-color: var(--color-accent-dark) !important;
+}
+
+.text-green-600 {
+    color: var(--color-accent) !important;
+}
+
+/* Text colors */
+.text-green-800 {
+    color: var(--color-text-primary) !important;
+}
+
+.text-green-700 {
+    color: var(--color-text-secondary) !important;
+}
+
+.text-gray-500 {
+    color: #3d7a5a !important; /* Darker green instead of gray */
+}
+
+/* Ensure proper contrast for accessibility */
+.bg-primary-100 {
+    background-color: var(--color-bg-secondary);
+}
+
+.text-primary-800 {
+    color: var(--color-text-primary);
+}
+
+/* Ensure all text has sufficient contrast */
+.text-gray-600 {
+    color: #2c6a4a !important; /* Dark green shade instead of gray */
+}
+
+.text-gray-200 {
+    color: #1a4530 !important; /* Darker shade of green instead of light gray */
+}
+
+/* Heading styles with dark green text and no background */
+h1, .h1, 
+h2, .h2, 
+h3, .h3, 
+h4, .h4, 
+h5, .h5, 
+h6, .h6 {
+    color: #1d4731 !important; /* Dark green text */
+    background-color: transparent !important; /* No background */
+    padding: 0 !important; /* Remove padding */
+    border-radius: 0 !important; /* Remove border radius */
+    font-weight: bold !important;
+    
+}
+
+/* Override specific heading classes */
+.text-green-200 {
+    color: #1d4731 !important; /* Changed to dark green */
+}
+
+/* Ensure buttons have proper contrast */
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Ensure form elements have proper contrast */
+input, textarea, select {
+    color: var(--color-text-primary);
+    background-color: var(--color-bg-card);
+    border-color: var(--color-border);
+}
+
+/* Ensure links have proper contrast */
+a {
+    color: var(--color-accent);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure focus states are visible */
+:focus {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 2px;
+}
+
+/* Chart colors */
+.chart-container canvas {
+    background-color: var(--color-bg-card);
+}
+
+/* Fix for task completion chart */
+#task-completion-chart {
+    background-color: white !important;
+}

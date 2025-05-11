@@ -1,0 +1,344 @@
+{
+  "gratitude": {
+    "morning": [
+      "What three things are you grateful for this morning that will help you start your day with positive energy?",
+      "As you begin your day, what small blessing from yesterday are you carrying forward with gratitude?",
+      "What aspect of your morning routine fills you with gratitude and sets a positive tone for your day?",
+      "Who in your life are you especially grateful for today, and how might you express that gratitude?",
+      "What opportunity awaits you today that you're grateful to have?",
+      "What personal strength do you possess that you're grateful for as you face today's challenges?",
+      "What beauty in your surroundings can you appreciate right now that you might normally overlook?",
+      "What lesson from yesterday are you grateful to apply to today?",
+      "What simple comfort (a warm bed, hot coffee, etc.) brought you joy this morning that many people don't have access to?",
+      "What progress toward your goals, however small, can you feel grateful for this morning?"
+    ],
+    "afternoon": [
+      "What meaningful interaction have you had today that you're grateful for?",
+      "What challenge did you overcome earlier today that you now feel grateful for experiencing?",
+      "What unexpected positive moment has occurred today that you appreciate?",
+      "What resource or tool are you using today that makes your work easier and deserves your gratitude?",
+      "What aspect of your health or physical ability are you grateful for as you move through your day?",
+      "What opportunity to help someone else have you had today that you're grateful for?",
+      "What beauty in your day have you noticed that lifted your spirits?",
+      "What boundary have you successfully maintained today that you're grateful you set?",
+      "What skill are you using today that you're thankful you developed?",
+      "What progress on a project or goal today, however small, can you appreciate?"
+    ],
+    "evening": [
+      "What three meaningful moments from today fill you with gratitude as you reflect?",
+      "What challenge from today are you now grateful for, and what did it teach you?",
+      "Who made your day better, and what specifically did they do that you appreciate?",
+      "What did you accomplish today, however small, that deserves acknowledgment and gratitude?",
+      "What did you witness today that reminded you of the goodness in the world?",
+      "What part of your evening routine are you most grateful for as you wind down?",
+      "What difficult emotion did you navigate today that you're grateful to have moved through?",
+      "What did you learn today that you're grateful to now know?",
+      "What aspect of your home environment are you especially appreciative of tonight?",
+      "What opportunity for growth presented itself today that you're grateful for, even if it was challenging?"
+    ]
+  },
+  "feelings": {
+    "morning": [
+      "How are you feeling physically this morning, and how might that influence your day ahead?",
+      "What emotion is most present for you right now, and what might it be telling you about your needs?",
+      "On a scale of 1-10, how energized do you feel this morning? What might help increase your energy?",
+      "What worries or anxieties are present as you start your day, and how can you address them constructively?",
+      "What are you looking forward to today, and how does anticipating it make you feel?",
+      "How did you sleep last night, and how is that affecting your emotional state this morning?",
+      "What lingering feelings from yesterday might be influencing your mood today?",
+      "What physical sensations are you aware of right now, and what might they be signaling?",
+      "How aligned do you feel with your purpose this morning? What might help you feel more connected?",
+      "What's your emotional weather forecast for today, and what self-care might you need?"
+    ],
+    "afternoon": [
+      "How has your energy shifted since the morning, and what might be influencing that change?",
+      "What has been the strongest emotion you've experienced so far today, and what triggered it?",
+      "Where in your body are you holding tension right now? Can you take a moment to release it?",
+      "How connected have you felt to others today, and how has that affected your emotional state?",
+      "What unexpected feeling arose today, and what might it be teaching you?",
+      "How present have you been able to stay today? What has helped or hindered your focus?",
+      "What has brought you joy or satisfaction so far today, even if momentarily?",
+      "How has your stress level fluctuated today, and what patterns do you notice?",
+      "What emotional need feels most important right now, and how might you address it?",
+      "How aligned have your actions been with your values today, and how does that make you feel?"
+    ],
+    "evening": [
+      "What emotions are you carrying from your day, and which ones would you like to release before sleep?",
+      "How has your body served you today, and what sensations are you aware of now?",
+      "What was the emotional high point and low point of your day, and what can you learn from each?",
+      "How connected did you feel to yourself today? Were there moments when you felt most authentic?",
+      "What challenging emotion did you navigate today, and what helped you move through it?",
+      "How did stress manifest for you today, both emotionally and physically?",
+      "What brought you peace today, even if just for a moment?",
+      "How did your interactions with others affect your emotional state today?",
+      "What unprocessed feelings from today might benefit from reflection before you sleep?",
+      "How would you describe your overall emotional state now, and what might help you transition to restful sleep?"
+    ]
+  },
+  "productivity": {
+    "morning": [
+      "What is the ONE most important task you must accomplish today that would make everything else easier or unnecessary?",
+      "What three specific outcomes would make today feel successful and aligned with your larger goals?",
+      "How will you protect your energy and focus for your most important work today?",
+      "What potential distractions or obstacles do you anticipate today, and how will you navigate them?",
+      "How can you break down your most challenging task today into smaller, more manageable steps?",
+      "What boundaries will you need to maintain today to protect your productivity and wellbeing?",
+      "What task have you been avoiding that, if completed today, would create significant forward momentum?",
+      "How will you measure progress today beyond just checking off tasks?",
+      "What systems or tools will you leverage today to maximize your effectiveness?",
+      "How will you ensure you're working on what truly matters rather than just staying busy?"
+    ],
+    "afternoon": [
+      "How aligned has your actual work been with your priorities today? What adjustments might you need?",
+      "What has been your biggest productivity win so far today, and what made it possible?",
+      "Where have you encountered resistance or procrastination today, and what might be the underlying cause?",
+      "How effectively have you managed interruptions and distractions so far today?",
+      "What task remains that would create the most significant impact if completed before day's end?",
+      "How has your energy fluctuated today, and how might you optimize your remaining work accordingly?",
+      "What decision or task are you postponing that needs your attention before the day ends?",
+      "How have you balanced focused work with necessary breaks today?",
+      "What unexpected task or challenge emerged today, and how did you adapt?",
+      "What support or resources might you need to finish strong today?"
+    ],
+    "evening": [
+      "What were your three biggest accomplishments today, regardless of whether they were planned?",
+      "What did you learn today that will help you be more effective tomorrow?",
+      "What task or project made meaningful progress today, even if it wasn't completed?",
+      "What distraction or time-waster had the biggest impact on your productivity today?",
+      "What did you say 'no' to today that protected your focus and priorities?",
+      "What did you postpone today that should be prioritized tomorrow?",
+      "How did your energy management strategies work today, and what might you adjust tomorrow?",
+      "What system or process helped you most today, and how might you strengthen it?",
+      "What was left unfinished today that might cause mental load or worry overnight?",
+      "How will you set yourself up for success tomorrow based on today's experiences?"
+    ]
+  },
+  "growth": {
+    "morning": [
+      "What skill or capability do you intend to strengthen today, even in a small way?",
+      "What mindset would serve you best today as you face challenges and opportunities?",
+      "What limiting belief might you encounter today, and how will you reframe it?",
+      "What uncomfortable situation might you face today that holds potential for growth?",
+      "How might you approach a familiar task or relationship with fresh perspective today?",
+      "What small experiment could you try today that might lead to new insights?",
+      "What feedback have you received recently that you could apply today?",
+      "What habit are you working to build, and how will you reinforce it today?",
+      "What would stepping slightly outside your comfort zone look like today?",
+      "What question could you hold throughout today that might lead to new awareness?"
+    ],
+    "afternoon": [
+      "What have you learned so far today, whether from success or setback?",
+      "How have you challenged yourself today, and what has it revealed?",
+      "What assumption or expectation have you needed to adjust today?",
+      "What strength have you drawn upon today that you're continuing to develop?",
+      "What conversation today provided insight or a new perspective?",
+      "How have you responded to a challenge today in a way that reflects growth?",
+      "What are you doing differently today compared to a month ago that shows progress?",
+      "What feedback or data have you received today that could inform your development?",
+      "What opportunity for learning or growth have you noticed but not yet acted upon today?",
+      "How have you practiced patience or persistence today in service of your growth?"
+    ],
+    "evening": [
+      "What was your most significant learning moment today, and how will you apply it going forward?",
+      "How did you step out of your comfort zone today, and what did you discover?",
+      "What mistake or setback today provided valuable insight or redirection?",
+      "How did you respond to challenge or criticism today, and what does that reveal about your growth?",
+      "What pattern or habit did you notice today that you'd like to transform?",
+      "What strength did you leverage today that you've intentionally developed?",
+      "What progress, however small, did you make today toward becoming the person you aspire to be?",
+      "What did you read, listen to, or engage with today that expanded your thinking?",
+      "How did you invest in your future self today through learning or development?",
+      "What would you do differently if you could replay a moment from today, and what does that teach you?"
+    ]
+  },
+  "success": {
+    "morning": [
+      "What would make today a 'win' in alignment with your most important life goals?",
+      "What specific actions today will move you measurably closer to your definition of success?",
+      "How will you measure success today beyond external achievements?",
+      "What strength or talent will you intentionally apply today to create value?",
+      "What opportunity exists today to make progress on your most meaningful project?",
+      "How will you ensure your actions today align with your long-term vision of success?",
+      "What potential obstacle to success might you face today, and how will you navigate it?",
+      "What support or resources will you activate today to enhance your effectiveness?",
+      "What habit that contributes to your long-term success will you reinforce today?",
+      "How will you celebrate small wins today to maintain momentum and motivation?"
+    ],
+    "afternoon": [
+      "What progress have you made today that deserves acknowledgment, even if it's not yet complete?",
+      "How have your actions so far today aligned with your personal definition of success?",
+      "What opportunity have you seized today that could lead to meaningful outcomes?",
+      "What challenge have you faced today that's actually preparing you for greater success?",
+      "How have you leveraged your unique strengths or advantages today?",
+      "What conversation or connection today might open doors to new possibilities?",
+      "How have you balanced immediate tasks with long-term strategic priorities today?",
+      "What decision today reflected your commitment to authentic success rather than external validation?",
+      "What resource or relationship have you invested in today that will support future success?",
+      "How have you maintained perspective today about what truly constitutes success in your life?"
+    ],
+    "evening": [
+      "What did you accomplish today that moved you closer to your most meaningful goals?",
+      "How did your actions today align with your personal values and definition of success?",
+      "What obstacle did you overcome today that demonstrates your resilience and commitment?",
+      "What opportunity did you create or recognize today that might lead to future success?",
+      "How did you invest in relationships today that support your growth and achievement?",
+      "What did you learn today that enhances your capacity for future success?",
+      "How did you balance achievement with wellbeing today?",
+      "What decision today reflected courage in pursuing your authentic path to success?",
+      "How did you use your resources (time, energy, attention, money) today in service of what matters most?",
+      "What are you most proud of from today, regardless of external recognition?"
+    ]
+  },
+  "lifestyle": {
+    "morning": [
+      "How will you prioritize your physical wellbeing today alongside your other responsibilities?",
+      "What one healthy habit will you make non-negotiable today, no matter how busy you get?",
+      "How will you create moments of presence and mindfulness throughout your day?",
+      "What boundaries will you maintain today to protect your energy and wellbeing?",
+      "How will you incorporate movement into your day in a way that feels supportive?",
+      "What nutritional choices today will support your energy and focus?",
+      "How will you ensure you stay hydrated throughout the day?",
+      "What might cause stress today, and how will you proactively manage your response?",
+      "How will you incorporate moments of joy or pleasure into your day?",
+      "What aspect of your environment will you optimize today for greater wellbeing?"
+    ],
+    "afternoon": [
+      "How have you honored your physical needs so far today?",
+      "What healthy choice have you made today that you feel good about?",
+      "How have you managed your energy rather than just your time today?",
+      "What boundary have you maintained today that protected your wellbeing?",
+      "How have you incorporated movement or physical activity so far today?",
+      "What nutritional choices today have supported your energy and focus?",
+      "How have you managed stress today, and what else might help?",
+      "What moment of rest or renewal have you experienced today?",
+      "How connected have you felt to others today, and how has that affected your wellbeing?",
+      "What aspect of your environment has supported your productivity and wellbeing today?"
+    ],
+    "evening": [
+      "How did you honor your physical wellbeing today, and what might you adjust tomorrow?",
+      "What healthy habits did you maintain today, even amid challenges?",
+      "How did you manage your energy today, and what patterns did you notice?",
+      "What boundaries served you well today, and where might you need to strengthen them?",
+      "How did movement or physical activity contribute to your day?",
+      "How did your nutritional choices affect your energy and mood today?",
+      "What stress management strategies were most effective today?",
+      "How did you create moments of rest or renewal today?",
+      "How did your social connections contribute to your wellbeing today?",
+      "What elements of your environment supported or hindered your wellbeing today?"
+    ]
+  },
+  "relationships": {
+    "morning": [
+      "Who might need your support or attention today, and how can you show up for them?",
+      "What relationship would benefit from your intentional investment today?",
+      "How will you communicate your needs clearly and compassionately in your interactions today?",
+      "What boundary might you need to establish or maintain in a relationship today?",
+      "How might you express appreciation to someone important in your life today?",
+      "What challenging conversation might you need to have today, and how will you approach it?",
+      "How will you practice active listening in your interactions today?",
+      "What relationship pattern are you working to change, and how will you practice that today?",
+      "Who might you reconnect with today that you've been meaning to reach out to?",
+      "How will you balance your social energy with your other needs today?"
+    ],
+    "afternoon": [
+      "What meaningful connection have you experienced so far today?",
+      "How have you expressed care or appreciation for others today?",
+      "What challenging interaction have you navigated today, and what did you learn?",
+      "How have you communicated your needs or boundaries in relationships today?",
+      "What opportunity for connection have you noticed but not yet acted upon today?",
+      "How have you practiced patience or understanding in your interactions today?",
+      "What relationship dynamic have you observed today that offers insight?",
+      "How have you balanced giving and receiving in your relationships today?",
+      "What conversation today provided value or meaning?",
+      "How have your relationships supported your wellbeing or goals today?"
+    ],
+    "evening": [
+      "What meaningful connections did you experience today?",
+      "How did you contribute positively to others' lives today?",
+      "What challenging relationship dynamic did you navigate today, and how?",
+      "How did you express or receive care and appreciation today?",
+      "What boundary did you maintain in relationships today, and how did it serve you?",
+      "What did you learn about yourself through your interactions today?",
+      "How did you balance your social needs with other aspects of wellbeing today?",
+      "What conversation today left you feeling energized or inspired?",
+      "How did you practice vulnerability or authenticity in relationships today?",
+      "What relationship insight or pattern did you notice today that deserves reflection?"
+    ]
+  },
+  "actions": {
+    "morning": [
+      "What three specific actions will have the biggest positive impact on your day?",
+      "What small step will you take today toward your most important goal?",
+      "What action have you been postponing that you'll prioritize today?",
+      "How will you turn your intentions into concrete actions today?",
+      "What habit will you reinforce through deliberate action today?",
+      "What bold action might you take today that aligns with your values?",
+      "What kind action could you take today that would benefit someone else?",
+      "What preventive action will you take today to avoid future problems?",
+      "What creative action will you take today to approach a challenge differently?",
+      "What action will you take today to invest in your future self?"
+    ],
+    "afternoon": [
+      "What important action have you taken so far today that aligns with your priorities?",
+      "What action remains that would create the most positive impact before day's end?",
+      "What adjustment to your planned actions might better serve your goals today?",
+      "What action have you taken today that required courage or discipline?",
+      "What small action could you take now to shift your momentum or energy?",
+      "What opportunity for action have you noticed but not yet responded to today?",
+      "How have your actions aligned with your values so far today?",
+      "What action could you take now to support someone else's success or wellbeing?",
+      "What action would help you finish strong today?",
+      "What have your actions today revealed about your priorities?"
+    ],
+    "evening": [
+      "What actions today had the most positive impact, whether planned or spontaneous?",
+      "What action did you take today that you're particularly proud of?",
+      "What action today moved you closer to an important goal?",
+      "What courageous or difficult action did you take today?",
+      "What kind or generous action did you perform today?",
+      "What action did you avoid today that you wish you had taken?",
+      "What action today reflected your authentic values?",
+      "What action today invested in your future wellbeing or success?",
+      "What action today helped strengthen an important relationship?",
+      "What action will you prioritize tomorrow based on today's experiences?"
+    ]
+  },
+  "satisfaction": {
+    "morning": [
+      "What would bring you a sense of satisfaction by the end of today?",
+      "How will you ensure you make time for what truly matters to you today?",
+      "What simple pleasure or joy will you make space for today?",
+      "How might you approach even routine tasks today with greater presence and appreciation?",
+      "What personal need will you honor today that often gets neglected?",
+      "How will you create a moment of meaning or purpose in your day?",
+      "What would help you feel more aligned and authentic in your actions today?",
+      "How will you acknowledge progress and small wins throughout your day?",
+      "What aspect of your day are you looking forward to with anticipation?",
+      "How will you bring more of your unique gifts and strengths into today's activities?"
+    ],
+    "afternoon": [
+      "What has brought you satisfaction or fulfillment so far today?",
+      "How connected have you felt to what matters most to you today?",
+      "What moment of joy or pleasure have you experienced today?",
+      "How have you honored your personal needs alongside your responsibilities today?",
+      "What has given you a sense of meaning or purpose so far today?",
+      "How have you acknowledged progress or small wins today?",
+      "What has helped you feel most present and engaged today?",
+      "How have you expressed your authentic self in your activities today?",
+      "What choice today reflected your values rather than external expectations?",
+      "What might help you experience greater satisfaction in the remainder of your day?"
+    ],
+    "evening": [
+      "What brought you the deepest sense of satisfaction today?",
+      "How did you honor what matters most to you today?",
+      "What moments of joy or pleasure did you experience today?",
+      "How did you balance meeting your own needs with your responsibilities to others?",
+      "What gave you a sense of meaning or purpose today?",
+      "How did you acknowledge progress or celebrate small wins today?",
+      "When did you feel most present and engaged today?",
+      "How did you express your authentic self in your activities today?",
+      "What choice today reflected your values rather than external expectations?",
+      "What would have made today even more satisfying, and how might you incorporate that tomorrow?"
+    ]
+  }
+}

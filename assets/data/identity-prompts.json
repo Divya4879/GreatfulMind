@@ -1,0 +1,216 @@
+{
+  "professional": {
+    "student": {
+      "gratitude": [
+        "What learning opportunity are you grateful for today?",
+        "Which teacher or mentor has positively influenced your growth?",
+        "What study resource has been particularly helpful lately?",
+        "What skill have you developed that you're thankful for?",
+        "What peer connection has enriched your learning experience?"
+      ],
+      "productivity": [
+        "What study technique helped you be more effective today?",
+        "How did you balance your academic responsibilities today?",
+        "What progress did you make on a challenging assignment?",
+        "How did you overcome a learning obstacle today?",
+        "What did you learn today that might be useful in the future?"
+      ]
+    },
+    "employee": {
+      "gratitude": [
+        "What aspect of your work environment are you grateful for?",
+        "Which colleague supported or inspired you recently?",
+        "What work resource has made your job easier lately?",
+        "What professional skill are you thankful to have developed?",
+        "What workplace challenge has helped you grow?"
+      ],
+      "productivity": [
+        "What work accomplishment are you proud of today?",
+        "How did you collaborate effectively with others today?",
+        "What workplace challenge did you overcome today?",
+        "How did you maintain work-life balance today?",
+        "What professional skill did you strengthen today?"
+      ]
+    },
+    "manager": {
+      "gratitude": [
+        "What strength in your team are you grateful for today?",
+        "Which team member showed exceptional growth recently?",
+        "What leadership opportunity are you thankful for?",
+        "What aspect of your leadership style has served you well?",
+        "What mentorship experience has been rewarding lately?"
+      ],
+      "productivity": [
+        "How did you empower your team today?",
+        "What leadership challenge did you navigate successfully?",
+        "How did you provide valuable feedback today?",
+        "What decision are you proud of making today?",
+        "How did you help remove obstacles for your team?"
+      ]
+    },
+    "entrepreneur": {
+      "gratitude": [
+        "What business opportunity are you grateful for today?",
+        "Which mentor or advisor has provided valuable guidance?",
+        "What customer feedback are you thankful to have received?",
+        "What business challenge has led to important growth?",
+        "What aspect of being your own boss do you appreciate today?"
+      ],
+      "productivity": [
+        "What strategic decision moved your business forward today?",
+        "How did you prioritize effectively among competing demands?",
+        "What business problem did you solve creatively today?",
+        "How did you invest in your business growth today?",
+        "What boundary did you set to maintain entrepreneurial wellbeing?"
+      ]
+    },
+    "freelancer": {
+      "gratitude": [
+        "What client relationship are you grateful for today?",
+        "Which project has been particularly fulfilling lately?",
+        "What aspect of your flexible schedule do you appreciate?",
+        "What skill in your freelance toolkit are you thankful for?",
+        "What feedback has helped you improve your services?"
+      ],
+      "productivity": [
+        "How did you manage your independent work schedule today?",
+        "What client deliverable are you proud of completing?",
+        "How did you market your services or skills today?",
+        "What boundary did you maintain with clients today?",
+        "How did you invest in your professional development today?"
+      ]
+    }
+  },
+  "family": {
+    "parent": {
+      "gratitude": [
+        "What moment with your child brought you joy today?",
+        "What parenting strength are you grateful to have developed?",
+        "What support system helps you in your parenting journey?",
+        "What quality in your child are you thankful to witness growing?",
+        "What family tradition brings you gratitude?"
+      ],
+      "actions": [
+        "How did you connect meaningfully with your child today?",
+        "What parenting challenge did you navigate with patience?",
+        "How did you model positive values for your child today?",
+        "What boundary did you set that honored your family's needs?",
+        "How did you make space for both parenting and self-care today?"
+      ]
+    },
+    "single-parent": {
+      "gratitude": [
+        "What strength have you discovered in yourself as a single parent?",
+        "Who has provided support on your parenting journey recently?",
+        "What moment of connection with your child are you grateful for?",
+        "What resource has made single parenting more manageable lately?",
+        "What accomplishment as a family are you proud of?"
+      ],
+      "actions": [
+        "How did you balance multiple responsibilities today?",
+        "What self-care practice did you maintain despite busy parenting?",
+        "How did you create quality time with your child today?",
+        "What support did you allow yourself to receive today?",
+        "How did you honor both your needs and your child's needs today?"
+      ]
+    },
+    "caregiver": {
+      "gratitude": [
+        "What moment of connection in your caregiving role touched you today?",
+        "What resource has supported your caregiving responsibilities?",
+        "What strength have you developed through caregiving?",
+        "Who has shown appreciation for your caregiving efforts?",
+        "What self-care practice sustains you in your caregiving role?"
+      ],
+      "actions": [
+        "How did you provide compassionate care today?",
+        "What boundary did you maintain to sustain your caregiving?",
+        "How did you attend to your own needs while caring for others?",
+        "What caregiving challenge did you navigate with patience?",
+        "How did you seek or accept support in your caregiving role today?"
+      ]
+    },
+    "partner": {
+      "gratitude": [
+        "What quality in your partner are you grateful for today?",
+        "What shared experience brought you closer recently?",
+        "What challenge have you overcome together that strengthened your bond?",
+        "What aspect of your partnership provides security or comfort?",
+        "What growth have you witnessed in your relationship lately?"
+      ],
+      "actions": [
+        "How did you show appreciation to your partner today?",
+        "What did you do to nurture your relationship today?",
+        "How did you communicate effectively with your partner?",
+        "What compromise or collaboration strengthened your partnership today?",
+        "How did you honor both connection and independence in your relationship?"
+      ]
+    }
+  },
+  "situation": {
+    "sole-breadwinner": {
+      "gratitude": [
+        "What strength have you discovered in your role as provider?",
+        "What resource or support has lightened your financial responsibilities?",
+        "What skill helps you manage your provider role effectively?",
+        "What aspect of your work enables you to support those who depend on you?",
+        "Who has acknowledged or appreciated your efforts as provider?"
+      ],
+      "satisfaction": [
+        "How have you balanced financial responsibilities with personal wellbeing?",
+        "What boundary have you maintained to protect your energy as provider?",
+        "How have you found meaning beyond financial provision today?",
+        "What small pleasure did you allow yourself to enjoy despite responsibilities?",
+        "How have you honored both your needs and the needs of those you support?"
+      ]
+    },
+    "relocating": {
+      "gratitude": [
+        "What opportunity has this relocation opened up for you?",
+        "What aspect of your new environment are you grateful for?",
+        "Who has helped make your transition smoother?",
+        "What familiar comfort have you been able to bring to your new space?",
+        "What strength have you discovered through the challenges of relocating?"
+      ],
+      "feelings": [
+        "How are you processing the changes that come with relocation?",
+        "What familiar routine has provided stability during this transition?",
+        "How have you honored both excitement and nostalgia in this move?",
+        "What step have you taken to create belonging in your new environment?",
+        "How have you been gentle with yourself during this significant change?"
+      ]
+    },
+    "career-change": {
+      "gratitude": [
+        "What skill from your previous experience transfers valuably to your new path?",
+        "Who has supported or mentored you through this career transition?",
+        "What aspect of your new direction excites and energizes you?",
+        "What learning opportunity has this career change provided?",
+        "What strength have you discovered through navigating professional change?"
+      ],
+      "productivity": [
+        "What new skill did you develop today for your career transition?",
+        "How did you apply previous experience to new challenges today?",
+        "What step did you take toward establishing yourself in your new field?",
+        "How did you navigate uncertainty with confidence today?",
+        "What boundary did you maintain during this period of professional growth?"
+      ]
+    },
+    "health-journey": {
+      "gratitude": [
+        "What aspect of your body's resilience are you grateful for today?",
+        "Who has provided support on your health journey?",
+        "What health resource or professional has been particularly helpful?",
+        "What small improvement or stability in your health do you appreciate?",
+        "What strength have you discovered through health challenges?"
+      ],
+      "actions": [
+        "What self-care practice did you maintain today despite challenges?",
+        "How did you listen to your body's needs today?",
+        "What boundary did you set to protect your wellbeing?",
+        "How did you balance health priorities with other aspects of life?",
+        "What step did you take toward your health goals today?"
+      ]
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "gratitude": {
+    "morning": [
+      "What is something you're looking forward to today?",
+      "Name three things you're grateful for this morning.",
+      "What small joy can you appreciate right now?",
+      "Who has recently made a positive impact on your day?",
+      "What aspect of your morning routine brings you peace?"
+    ],
+    "afternoon": [
+      "What has gone well so far today?",
+      "What unexpected positive moment have you experienced today?",
+      "Who did you have a meaningful interaction with today?",
+      "What challenge did you overcome today that you're grateful for?",
+      "What beauty in your surroundings have you noticed today?"
+    ],
+    "evening": [
+      "What made you smile today?",
+      "What act of kindness did you witness or participate in today?",
+      "What lesson are you grateful to have learned today?",
+      "What comfort are you thankful for tonight?",
+      "Who are you grateful to have in your life right now?"
+    ]
+  },
+  "feelings": {
+    "morning": [
+      "How are you feeling as you start your day?",
+      "What emotion is most present for you this morning?",
+      "What are you hopeful about today?",
+      "What concern can you acknowledge and release today?",
+      "How can you honor your emotional needs today?"
+    ],
+    "afternoon": [
+      "How has your emotional state shifted since morning?",
+      "What has triggered strong emotions today?",
+      "How have you practiced emotional awareness today?",
+      "What feeling has been most challenging today?",
+      "How have you shown yourself compassion today?"
+    ],
+    "evening": [
+      "What emotions are you carrying at the end of this day?",
+      "How did you handle a challenging emotion today?",
+      "What brought you peace today?",
+      "How did your feelings influence your actions today?",
+      "What emotion would you like to cultivate more tomorrow?"
+    ]
+  },
+  "actions": {
+    "morning": [
+      "What intentional action will you take today?",
+      "How might you make someone else's day better today?",
+      "What small step toward your goals will you take today?",
+      "How will you practice self-care today?",
+      "What boundary will you honor today?"
+    ],
+    "afternoon": [
+      "What meaningful action have you taken so far today?",
+      "How have you helped someone else today?",
+      "What have you done today that aligns with your values?",
+      "What action are you proud of taking today?",
+      "How have you shown up for yourself today?"
+    ],
+    "evening": [
+      "What action did you take today that you're proud of?",
+      "How did you make a difference for someone today?",
+      "What did you do today that moved you toward your goals?",
+      "How did you prioritize your wellbeing today?",
+      "What action will you carry forward to tomorrow?"
+    ]
+  },
+  "productivity": {
+    "morning": [
+      "What is your most important task today?",
+      "How will you measure success today?",
+      "What can you do today that your future self will thank you for?",
+      "How will you balance productivity and rest today?",
+      "What distraction will you mindfully avoid today?"
+    ],
+    "afternoon": [
+      "What have you accomplished so far today?",
+      "How have you used your time effectively today?",
+      "What obstacle have you overcome today?",
+      "How have you adjusted your priorities today?",
+      "What task deserves your focus for the rest of the day?"
+    ],
+    "evening": [
+      "What accomplishment are you proud of today?",
+      "How did you make progress toward your goals today?",
+      "What did you learn that will help you tomorrow?",
+      "How did you balance productivity and wellbeing today?",
+      "What will you do differently tomorrow?"
+    ]
+  },
+  "satisfaction": {
+    "morning": [
+      "What would make today fulfilling for you?",
+      "How will you create moments of joy today?",
+      "What are you looking forward to experiencing today?",
+      "How will you honor your needs today?",
+      "What intention will guide your day?"
+    ],
+    "afternoon": [
+      "What has brought you satisfaction so far today?",
+      "How have you honored your needs today?",
+      "What moment today has felt most meaningful?",
+      "How have you connected with your values today?",
+      "What has surprised you in a positive way today?"
+    ],
+    "evening": [
+      "How satisfied do you feel with your day?",
+      "What moment today felt most aligned with your values?",
+      "What boundary did you set that honored your needs?",
+      "What experience today would you like to remember?",
+      "How did you create meaning in your day?"
+    ]
+  }
+}

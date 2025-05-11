@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GratefulMind | Personalized Gratitude Journal</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Tailwind Configuration
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Green palette
+                        green: {
+                            50: '#f0f9f1',
+                            100: '#dcf5e0',
+                            200: '#bbebca',
+                            300: '#8fdba9',
+                            400: '#5fc585',
+                            500: '#3ba164',
+                            600: '#2c8550',
+                            700: '#256b42',
+                            800: '#215538',
+                            900: '#1d4731',
+                            950: '#0b2719',
+                        },
+                        // Mint accent
+                        mint: {
+                            50: '#effef7',
+                            100: '#dafeef',
+                            200: '#b8fadf',
+                            300: '#81f4c7',
+                            400: '#43e5a0',
+                            500: '#1acd7e',
+                            600: '#0fa968',
+                            700: '#108554',
+                            800: '#126945',
+                            900: '#11573b',
+                        },
+                        // Sage complementary
+                        sage: {
+                            50: '#f6f7f2',
+                            100: '#e9ede1',
+                            200: '#d5ddc8',
+                            300: '#b7c6a5',
+                            400: '#94aa7c',
+                            500: '#798f62',
+                            600: '#61744d',
+                            700: '#4c5a3c',
+                            800: '#3e4832',
+                            900: '#343c2b',
+                        },
+                        // Gold for finance
+                        gold: {
+                            50: '#fefbea',
+                            100: '#fdf6c5',
+                            200: '#f9ea83',
+                            300: '#f6d73f',
+                            400: '#f4ca1e',
+                            500: '#e4b30b',
+                            600: '#c48a07',
+                            700: '#9c640a',
+                            800: '#834f10',
+                            900: '#704212',
+                        },
+                        // Gray palette (replaced with green shades)
+                        gray: {
+                            50: '#f0f9f1',
+                            100: '#dcf5e0',
+                            200: '#1a4530', // Dark green instead of light gray
+                            300: '#8fdba9',
+                            400: '#5fc585',
+                            500: '#3d7a5a', // Darker green instead of gray
+                            600: '#2c6a4a', // Dark green shade instead of gray
+                            700: '#256b42',
+                            800: '#215538',
+                            900: '#1d4731',
+                        },
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        serif: ['Playfair Display', 'Georgia', 'serif'],
+                    },
+                    boxShadow: {
+                        soft: '0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03)',
+                    },
+                    backgroundImage: {
+                        'gradient-subtle': 'linear-gradient(to right bottom, var(--tw-gradient-stops))',
+                    },
+                },
+            },
+        };
+    </script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen flex flex-col bg-green-50 text-gray-800">
+    <!-- Header -->
+    <header class="bg-gradient-subtle from-green-100 to-green-200 shadow-md">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                <div class="flex items-center">
+                    <svg class="h-12 w-12 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z" clip-rule="evenodd"></path>
+                    </svg>
+                    <h1 class="ml-3 text-4xl font-serif font-bold text-green-100">GratefulMind</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <!-- Welcome Section - Shown initially -->
+        <section id="welcome-section" class="max-w-3xl mx-auto">
+            <div class="bg-gradient-subtle from-green-800 to-green-900 rounded-2xl shadow-soft p-8 text-center">
+                <h2 class="text-3xl font-serif font-bold mb-4 text-white" style="color: white !important;">Welcome to GratefulMind</h2>
+                <p class="mb-6 text-green-100">Your personalized gratitude journal that adapts to your unique identity.</p>
+                <button id="get-started-btn" class="bg-green-600 hover:bg-green-700 text-white font-medium py-3 px-6 rounded-lg transition-all shadow-sm hover:shadow focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2" aria-label="Start setup process">
+                    Get Started
+                </button>
+            </div>
+        </section>
+
+        <!-- Main Section - Hidden initially -->
+        <section id="main-section" class="max-w-5xl mx-auto hidden">
+            <div class="mb-8">
+                <h2 id="greeting" class="text-3xl font-serif font-bold text-green-200">Good day!</h2>
+            </div>
+            
+            <!-- Quotes Section -->
+            <div class="mb-8">
+                <h3 class="text-xl font-medium text-green-200 mb-4">Daily Inspiration</h3>
+                <div id="quotes-container">
+                    <!-- Quotes will be loaded here -->
+                </div>
+            </div>
+            
+            <!-- Prompts Section -->
+            <div class="mb-8">
+                <h3 class="text-xl font-medium text-green-200 mb-4">Journal Prompts</h3>
+                <div id="prompts-container">
+                    <!-- Prompts will be loaded here -->
+                </div>
+            </div>
+            
+            <!-- Tasks Section -->
+            <div class="mb-8">
+                <div class="flex justify-between items-center mb-4">
+                    <h3 class="text-xl font-medium text-green-900">Today's Tasks</h3>
+                    <button id="add-task-btn" class="btn btn-primary">
+                        <svg class="h-5 w-5 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 5a1 1 0 011 1v3h3a1 1 0 110 2h-3v3a1 1 0 11-2 0v-3H6a1 1 0 110-2h3V6a1 1 0 011-1z" clip-rule="evenodd"></path>
+                        </svg>
+                        Add Task
+                    </button>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Task Chart -->
+                    <div class="bg-white rounded-xl p-5 shadow-sm">
+                        <h4 class="text-lg font-medium text-green-900 mb-3">Task Progress</h4>
+                        <div class="h-64 relative">
+                            <canvas id="task-completion-chart" aria-label="Task completion chart" role="img"></canvas>
+                        </div>
+                    </div>
+                    
+                    <!-- Task List -->
+                    <div id="task-list-container" class="bg-white rounded-xl p-5 shadow-sm">
+                        <!-- Tasks will be loaded here -->
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Life Areas Section -->
+            <div class="mb-8">
+                <h3 class="text-xl font-medium text-green-200 mb-4">Life Areas</h3>
+                <div id="life-areas-container" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                    <!-- Life areas will be loaded here -->
+                </div>
+            </div>
+            
+            <!-- Progress Section -->
+            <div class="mb-8">
+                <h3 class="text-xl font-medium text-green-200 mb-4">Your Progress</h3>
+                <div id="progress-container">
+                    <!-- Progress visualization will be loaded here -->
+                </div>
+            </div>
+            
+            <div class="flex justify-end">
+                <button id="reset-app" class="text-red-500 hover:text-red-600 font-medium text-sm">
+                    Reset App Data
+                </button>
+            </div>
+        </section>
+
+        <!-- Journal Section - Hidden initially -->
+        <section id="journal-section" class="max-w-3xl mx-auto hidden">
+            <div id="journal-history-container" class="bg-white rounded-xl p-6 shadow-sm">
+                <!-- Journal history will be loaded here -->
+                <div class="flex justify-center py-4">
+                    <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-green-600"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-subtle from-green-100 to-green-200 shadow-inner mt-auto font-bold">
+        <div class="container mx-auto px-4 py-8 text-center">
+            <p class="text-green-700 mb-3">
+                <span class="text-xl font-serif">GratefulMind - Cultivate gratitude daily</span>
+            </p>
+            <p class="text-sm text-green-600 mb-2">
+                Built with <span class="text-red-500">💚</span> by Divya | A personalized gratitude journal that adapts to your unique identity
+            </p>
+            <p class="text-xs text-green-600/80">
+                Version 1.0 | © 2025 | <a href="#" class="underline hover:text-green-700">Privacy Policy</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/user.js"></script>
+    <script src="js/prompts.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/journal.js"></script>
+    <script src="js/tasks.js"></script>
+    <script src="js/goals.js"></script>
+    <script src="js/feelings.js"></script>
+    <script src="js/charts.js"></script>
+    <script src="js/insights.js"></script>
+    <script src="js/tasks-ui.js"></script>
+    <script src="js/app-goals.js"></script>
+    <script src="js/app-life-areas.js"></script>
+    <script src="js/app-prompts.js"></script>
+    <script src="js/app-entries.js"></script>
+    <script src="js/app-feelings.js"></script>
+    <script src="js/app-progress.js"></script>
+    <script src="js/app-journal-history.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Set Chart.js default colors
+            if (typeof Chart !== 'undefined') {
+                Chart.defaults.color = '#215538';
+                Chart.defaults.font.family = "'Inter', system-ui, sans-serif";
+                Chart.defaults.font.size = 12;
+            }
+        });
+    </script>
+</body>
+</html>
